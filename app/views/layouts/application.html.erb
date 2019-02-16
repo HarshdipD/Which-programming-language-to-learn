@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>WhichProgrammingLanguageToLearn</title>
+    <title>Which programming language to learn</title>
     <%= csrf_meta_tags %>
-
+    <style>
+    body{ background-color: #eaf2ff}
+    </style>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'materialize.min' %>
   </head>
-
   <body>
+   <nav>
+        <div class="nav-wrapper" style="background-color: #68a2ff">
+          <a href="/" class="brand-logo" style="padding: 0 0 0 20px; font-size: 30px">Which programming language you should learn</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="sass.html"><!--Add a menu item--></a></li>
+            <li>
+              <%= link_to 'about', about_path %>
+            </li>
+            <li>
+            </li>
+          </ul>
+        </div>
+      </nav>
     <%= yield %>
   </body>
 </html>
