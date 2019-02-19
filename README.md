@@ -1,6 +1,6 @@
 # README
 
-An interactive web-application quiz that helps you decide which programming language to lear next!
+An interactive web-application quiz that helps you decide which programming language to learn next!
 
 ### Setup
 
